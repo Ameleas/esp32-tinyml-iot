@@ -1,0 +1,7 @@
+secrets.h
+*.pem
+*.key
+*.crt
+.env
+.vscode/
+.DS_Store
