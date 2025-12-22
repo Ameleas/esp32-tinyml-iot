@@ -14,20 +14,20 @@ const char* mqtt_topic = "/home/birds"; // edit to fit your project
 // CA Certificate
 const char* ca_cert = R"EOF(
 -----BEGIN CERTIFICATE-----
-... (KLISTRA IN CA CERTIFICATE HÄR) ...
+... (PASTE CA CERTIFICATE HERE) ...
 -----END CERTIFICATE-----
 )EOF";
 
 // Client Certificate
 const char* client_cert = R"KEY(
 -----BEGIN CERTIFICATE-----
-... (KLISTRA IN CLIENT CERTIFICATE HÄR) ...
+... (PASTE CLIENT CERTIFICATE HERE) ...
 -----END CERTIFICATE-----
 )KEY";
 
 // Client Private Key
 const char* client_key = R"KEY(
 -----BEGIN RSA PRIVATE KEY-----
-... (KLISTRA IN CLIENT KEY HÄR) ...
+... (PASTE CLIENT KEY HERE) ...
 -----END RSA PRIVATE KEY-----
 )KEY";
